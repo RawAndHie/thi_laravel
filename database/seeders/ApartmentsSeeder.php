@@ -18,7 +18,7 @@ class ApartmentsSeeder extends Seeder
         DB::table('apartments')->truncate();
         DB::table('apartments')->insert([
             [
-                'name'=> 'STUDIO 930TR, 2 PHÒNG NGỦ',
+                'name'=> 'Căn 53m2 tòa T8',
                 'address'=>'VINHOMES SMART CITY',
                 'price'=>'33.000.000/m2',
                 'information'=>'2 PHÒNG NGỦ',
@@ -28,7 +28,7 @@ class ApartmentsSeeder extends Seeder
 
             ],
             [
-                'name'=> 'STUDIO 930TR, 2 PHÒNG NGỦ',
+                'name'=> 'Căn 53m2 tòa T8',
                 'address'=>'VINHOMES SMART CITY',
                 'price'=>'33.000.000/m2',
                 'information'=>'Căn 53m2 tòa T8, T9 giá 1,9 - 21 tỷ bao phí tùy tầng hướng',
@@ -37,7 +37,7 @@ class ApartmentsSeeder extends Seeder
                 'status'=>'Chưa bán'
             ],
             [
-                'name'=> 'STUDIO 930TR, 2 PHÒNG NGỦ',
+                'name'=> 'Căn 75m2 tòa T1',
                 'address'=>'VINHOMES SMART CITY',
                 'price'=>'33.000.000/m2',
                 'information'=>'Căn 75m2 tòa T1, 4, 5, 6, 7 giá 2,7 - 2,85 tỷ bao phí.',
@@ -46,7 +46,7 @@ class ApartmentsSeeder extends Seeder
                 'status'=>'Chưa bán'
             ],
             [
-                'name'=> 'STUDIO 930TR, 2 PHÒNG NGỦ',
+                'name'=> 'Căn 87m2 căn hoa hậu tòa T5',
                 'address'=>'VINHOMES SMART CITY',
                 'price'=>'33.000.000/m2',
                 'information'=>'Căn 87m2 căn hoa hậu tòa T5, 6, 7, giá 3,25 - 3,35 tỷ bao phí tùy tầng hướng.',
@@ -55,7 +55,7 @@ class ApartmentsSeeder extends Seeder
                 'status'=>'Chưa bán'
             ],
             [
-                'name'=> 'STUDIO 930TR, 2 PHÒNG NGỦ',
+                'name'=> 'Căn 90m2, tầng trung, tòa T4, 5, 6, 7',
                 'address'=>'VINHOMES SMART CITY',
                 'price'=>'33.000.000/m2',
                 'information'=>'Căn 90m2, tầng trung, tòa T4, 5, 6, 7, giá 3,0 - 3,1 tỷ bao phí, full đồ.',
@@ -64,7 +64,7 @@ class ApartmentsSeeder extends Seeder
                 'status'=>'Chưa bán'
             ],
             [
-                'name'=> 'STUDIO 930TR, 2 PHÒNG NGỦ',
+                'name'=> 'Căn 94.4m2, tầng trung, tòa T1',
                 'address'=>'VINHOMES SMART CITY',
                 'price'=>'33.000.000/m2',
                 'information'=>'Căn 94.4m2, tầng trung, tòa T1, giá 3,25 tỷ, bao phí, gần như full đồ.',
@@ -73,7 +73,7 @@ class ApartmentsSeeder extends Seeder
                 'status'=>'Chưa bán'
             ],
             [
-                'name'=> 'STUDIO 930TR, 2 PHÒNG NGỦ',
+                'name'=> 'Căn 94.4m2, tầng trung, hướng Nam',
                 'address'=>'VINHOMES SMART CITY',
                 'price'=>'33.000.000/m2',
                 'information'=>'Căn 94.4m2, tầng trung, hướng Nam, T4, sửa rất đẹp, full đồ đẹp, xịn, giá 3,45 tỷ bao phí.',
@@ -82,7 +82,7 @@ class ApartmentsSeeder extends Seeder
                 'status'=>'Chưa bán'
             ],
             [
-                'name'=> 'STUDIO 930TR, 2 PHÒNG NGỦ',
+                'name'=> 'Căn 109m2, tầng đẹp, tòa T3',
                 'address'=>'VINHOMES SMART CITY',
                 'price'=>'33.000.000/m2',
                 'information'=>'Căn 109m2, tầng đẹp, tòa T3, giá 3,65 tỷ bao phí, full nội thất đẹp.',
@@ -91,7 +91,7 @@ class ApartmentsSeeder extends Seeder
                 'status'=>'Chưa bán'
             ],
             [
-                'name'=> 'STUDIO 930TR, 2 PHÒNG NGỦ',
+                'name'=> 'Căn góc 97,5m2, view nhạc nước',
                 'address'=>'VINHOMES SMART CITY',
                 'price'=>'33.000.000/m2',
                 'information'=>'Căn góc 97,5m2, view nhạc nước, giá chỉ 3,530 tỷ bao phí, nhà mới.',
@@ -100,7 +100,7 @@ class ApartmentsSeeder extends Seeder
                 'status'=>'Chưa bán'
             ],
             [
-                'name'=> 'STUDIO 930TR, 2 PHÒNG NGỦ',
+                'name'=> 'Căn góc 3 phòng ngủ, 110m2',
                 'address'=>'VINHOMES SMART CITY',
                 'price'=>'33.000.000/m2',
                 'information'=>'Căn góc 3 phòng ngủ, 110m2, giá 4,2 - 4,5 tỷ bao phí.',
@@ -109,7 +109,7 @@ class ApartmentsSeeder extends Seeder
                 'status'=>'Chưa bán'
             ],
             [
-                'name'=> 'STUDIO 930TR, 2 PHÒNG NGỦ',
+                'name'=> 'Căn 3 phòng ngủ, tòa T11',
                 'address'=>'VINHOMES SMART CITY',
                 'price'=>'33.000.000/m2',
                 'information'=>'Căn 3 phòng ngủ, tòa T11, tầng trung, giá 4,4 - 4,5 tỷ bao phí.',
@@ -118,7 +118,7 @@ class ApartmentsSeeder extends Seeder
                 'status'=>'Chưa bán'
             ],
             [
-                'name'=> 'STUDIO 930TR, 2 PHÒNG NGỦ',
+                'name'=> 'Căn 80,1m2, tòa Park 7',
                 'address'=>'VINHOMES SMART CITY',
                 'price'=>'33.000.000/m2',
                 'information'=>'Căn 80,1m2, tòa Park 7, giá 3,45 tỷ bao phí.',
@@ -127,7 +127,7 @@ class ApartmentsSeeder extends Seeder
                 'status'=>'Chưa bán'
             ],
             [
-                'name'=> 'STUDIO 930TR, 2 PHÒNG NGỦ',
+                'name'=> 'Căn 115m2, view và thiết kế siêu đẹp',
                 'address'=>'VINHOMES SMART CITY',
                 'price'=>'33.000.000/m2',
                 'information'=>'Căn 115m2, view và thiết kế siêu đẹp, tòa P7, giá 4,9 tỷ.',
@@ -136,7 +136,7 @@ class ApartmentsSeeder extends Seeder
                 'status'=>'Chưa bán'
             ],
             [
-                'name'=> 'STUDIO 930TR, 2 PHÒNG NGỦ',
+                'name'=> 'Căn góc Đông Nam 4 phòng ngủ',
                 'address'=>'VINHOMES SMART CITY',
                 'price'=>'33.000.000/m2',
                 'information'=>'Căn góc Đông Nam 4 phòng ngủ, tòa P8, tầng đẹp, giá 7,5 tỷ.',
@@ -145,7 +145,7 @@ class ApartmentsSeeder extends Seeder
                 'status'=>'Chưa bán'
             ],
             [
-                'name'=> 'STUDIO 930TR, 2 PHÒNG NGỦ',
+                'name'=> 'Căn 79m2, tòa P12,',
                 'address'=>'VINHOMES SMART CITY',
                 'price'=>'33.000.000/m2',
                 'information'=>'Căn 79m2, tòa P12, giá 3,45 tỷ bao phí.',
@@ -154,7 +154,7 @@ class ApartmentsSeeder extends Seeder
                 'status'=>'Chưa bán'
             ],
             [
-                'name'=> 'STUDIO 930TR, 2 PHÒNG NGỦ',
+                'name'=> 'Căn góc Đông Nam tòa Park 9',
                 'address'=>'VINHOMES SMART CITY',
                 'price'=>'33.000.000/m2',
                 'information'=>'Căn góc Đông Nam tòa Park 9, giá 5,6 tỷ bao phí, full đồ đẹp.',
@@ -163,7 +163,7 @@ class ApartmentsSeeder extends Seeder
                 'status'=>'Chưa bán'
             ],
             [
-                'name'=> 'STUDIO 930TR, 2 PHÒNG NGỦ',
+                'name'=> 'Căn 115m2, view và thiết kế siêu đẹp',
                 'address'=>'VINHOMES SMART CITY',
                 'price'=>'33.000.000/m2',
                 'information'=>'Căn 115m2, view và thiết kế siêu đẹp, tòa P7, giá 4,9 tỷ.',
@@ -172,7 +172,7 @@ class ApartmentsSeeder extends Seeder
                 'status'=>'Chưa bán'
             ],
             [
-                'name'=> 'STUDIO 930TR, 2 PHÒNG NGỦ',
+                'name'=> 'Căn góc Đông Nam 4 phòng ngủ, tòa P8',
                 'address'=>'VINHOMES SMART CITY',
                 'price'=>'33.000.000/m2',
                 'information'=>'Căn góc Đông Nam 4 phòng ngủ, tòa P8, tầng đẹp, giá 7,5 tỷ',
@@ -181,7 +181,7 @@ class ApartmentsSeeder extends Seeder
                 'status'=>'Chưa bán'
             ],
             [
-                'name'=> 'STUDIO 930TR, 2 PHÒNG NGỦ',
+                'name'=> 'Căn góc 97,5m2, view nhạc nước',
                 'address'=>'VINHOMES SMART CITY',
                 'price'=>'33.000.000/m2',
                 'information'=>'Căn góc 97,5m2, view nhạc nước, giá chỉ 3,530 tỷ bao phí, nhà mới',
@@ -190,7 +190,7 @@ class ApartmentsSeeder extends Seeder
                 'status'=>'Chưa bán'
             ],
             [
-                'name'=> 'STUDIO 930TR, 2 PHÒNG NGỦ',
+                'name'=> 'Căn 70m2, view quảng trường Park Hill',
                 'address'=>'VINHOMES SMART CITY',
                 'price'=>'33.000.000/m2',
                 'information'=>'Căn 70m2, view quảng trường Park Hill, giá 3,1 tỷ bao phí.r',
