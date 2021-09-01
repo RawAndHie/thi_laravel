@@ -31,10 +31,11 @@
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
         @endforeach
     </div>
+
+
     @include('pagination.default', ['paginator' => $list])
 @endsection
